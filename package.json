@@ -1,0 +1,26 @@
+{
+  "name": "create-react-module",
+  "version": "1.0.0",
+  "description": "根据模板快速生成react项目模块的架构代码",
+  "main": "index.js",
+  "dependencies": {
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southnan0/create-react-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/southnan0/create-react-module/issues"
+  },
+  "homepage": "https://github.com/southnan0/create-react-module#readme"
+}

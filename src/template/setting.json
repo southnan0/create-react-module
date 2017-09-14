@@ -1,0 +1,22 @@
+{
+    "outputPath": {
+        "modules": {
+            "outputPath": "E:\\code\\mall-platform\\src"
+        }
+    },
+    "importPath": {
+        "createResource": "helpers/resource/createResource"
+    },
+    "fileConfig": {
+        "attr": {
+            "API": "api/json/pub-settlement-api/",
+            "API_NAME": [
+                "billSummary/voucherUnit/importVoucherUnits",
+                "billSummary/voucherUnit/deleteVoucherUnit"
+            ]
+        }
+    },
+    "templateList":{
+        "modules":["attr.js"]
+    }
+}
