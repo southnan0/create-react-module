@@ -1,22 +1,21 @@
 {
-    "outputPath": {
-        "modules": {
-            "outputPath": "E:\\code\\mall-platform\\src"
-        }
-    },
-    "importPath": {
-        "createResource": "helpers/resource/createResource"
-    },
-    "fileConfig": {
-        "attr": {
-            "API": "api/json/pub-settlement-api/",
-            "API_NAME": [
-                "billSummary/voucherUnit/importVoucherUnits",
-                "billSummary/voucherUnit/deleteVoucherUnit"
-            ]
-        }
-    },
-    "templateList":{
-        "modules":["attr.js"]
-    }
+  "readme": "以一个模块为单位",
+  "outputPath": {
+    "modules": "E:\\code\\mall-platform\\src"
+  },
+  "fileConfig": {
+    "baseAPIPath": "api/json/pub-settlement-api/",
+    "URL": [
+      "billSummary/voucherUnit/importVoucherUnits",
+      "billSummary/voucherUnit/deleteVoucherUnit"
+    ]
+  },
+  "variableConfig": {
+    "createResource": "import {createResource} from 'helpers/resource/createResource'"
+  },
+  "templateList": {
+    "modules": [
+      "attr.js"
+    ]
+  }
 }
