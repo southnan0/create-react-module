@@ -1,16 +1,17 @@
 {
+  "readme": "以一个模块为单位",
   "outputPath": {
-    "modules":  "E:\\code\\mall-platform\\src"
-  },
-  "importPath": {
-    "createResource": "helpers/resource/createResource"
+    "modules": "E:\\code\\mall-platform\\src"
   },
   "fileConfig": {
-    "API": "api/json/pub-settlement-api/",
+    "baseAPIPath": "api/json/pub-settlement-api/",
     "URL": [
       "billSummary/voucherUnit/importVoucherUnits",
       "billSummary/voucherUnit/deleteVoucherUnit"
     ]
+  },
+  "variableConfig": {
+    "createResource": "import {createResource} from 'helpers/resource/createResource'"
   },
   "templateList": {
     "modules": [

@@ -1,5 +1,5 @@
-import {createResource} from "helpers/resource"
-const api = 'api/json/pub-settlement-api/';
+$$$createResource;
+const BASE_PATH = $$baseAPIPath;
 
 // TODO:
 {{ createAPI }}

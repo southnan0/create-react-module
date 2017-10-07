@@ -42,12 +42,18 @@ const readTemplate = (templatePath, outPath, next) => {
     })
 };
 
+/**
+ *
+ * @param dirPath
+ * @param outPath
+ * @param next   如果当前是文件，那么执行next的方法
+ */
 const readDirTemplate = (dirPath, outPath, next) => {
     fs.readdirSync(dirPath).map(item => {
         const fullPath = path.resolve(dirPath, `./${item}`);
         const fullOutputPath = path.resolve(outPath, `./${item}`);
         readTemplate(fullPath, fullOutputPath, next);
     });
-}
+};
 
 export default readTemplate;
